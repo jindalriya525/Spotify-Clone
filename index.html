@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web player:Music for everyone</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="nav-bar">
+    <div class="logo">
+      <div class="logoimg"><i class="fa-brands fa-spotify"></i></div>
+    </div>
+    <div class="center">
+      <div class="home">
+        <i class="fa-solid fa-house"></i>
+      </div>
+      <div class="searchbutton">
+        <div class="search">
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+        <p>What do you want to play ?</p>
+      </div>
+    </div>
+    <div class="side">
+      <div class="explorepremium">
+        <button class="navbadge">Explore Premium</button>
+      </div>
+      <div class="installapp">
+
+        <button class="navbadge insapp">
+          <div class="border"><i class="fa-solid fa-arrow-down"></i></div>
+          <p>Install App</p>
+        </button>
+      </div>
+      <div class="bell">
+        <i class="fa-solid fa-bell"></i>
+      </div>
+
+    </div><!--side-->
+  </div><!--navbar-->
+
+
+  <div class="main">
+    <div class="sidebar">
+
+
+      <div class="library" style="background-color: #121212">
+        <div class="option">
+          <div class="nav-option1"><!--option1-->
+            <a href="library" style="background-color: #121212;">Your Library</a>
+          </div>
+          <div class="nav-option2">
+
+            <button class="op2"> <i class="fa-solid fa-plus" style="opacity : 0.7"></i>Create</button>
+
+
+          </div>
+        </div><!--options-->
+
+
+        <div class="box">
+          <div class="box1">
+
+            <h5>Create your final Playlists</h5>
+            <p>It'seasy.We will help you</p>
+            <button>Create Playlist</button>
+
+          </div><!--box1-->
+          <div class="box1">
+            <h5>Let's find some podcasts to follow.</h5>
+            <p>We'll keep you updated on new episodes</p>
+            <button>Browse Podcasts</button>
+          </div><!--box2-->
+
+        </div><!--box-->
+
+
+
+      </div> <!--library-->
+    </div><!--sidebar-->
+
+    <div class="maincontent">
+      <div class="stickynav">
+        <button class="first-button">All</button>
+        <button class="second-button">Music</button>
+        <button class="third-button">Podcasts</button>
+      </div><!--stickynav-->
+
+      <div class="liked-songs-flex">
+        <div class="scard">
+          <img src="likedsongs.jpeg">
+          <p>Liked Songs</p>
+        </div>
+        <div class="scard">
+          <img src="nintysbollywood.jpeg">
+          <p>90s Bollywood</p>
+        </div>
+
+
+      </div>
+
+      <div class="liked-songs-flex">
+        <div class="scard">
+          <img src="Radha rani and thakur.jpeg">
+          <p>Radha Rani<span class="red-heart">&#10084;</span></p>
+        </div>
+        <div class="scard">
+          <img src="bestbhajans.jpeg">
+          <p>Best Bhajan</p>
+        </div>
+
+
+      </div>
+
+      <div class="liked-songs-flex">
+        <div class="scard">
+          <img src="findingher.jpeg">
+          <p>Finding Her</p>
+        </div>
+        <div class="scard">
+          <img src="damru.jpeg">
+          <p>Damru</p>
+        </div>
+
+
+      </div>
+
+      <div class="cards">
+        <div class="cards-header">
+          <h2>Charts</h2>
+          <a href="/" class="show-all">Show all</a>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img src="first.jpg" alt="Playlist Image">
+            <div class="card-info">Your daily updates of most played</div>
+          </div>
+
+
+          <div class="card">
+            <img src="card1img.jpeg" alt="Playlist Image">
+            <div class="card-info">Top global hits updated everyday</div>
+          </div>
+
+          <div class="card">
+            <img src="thirdcard.jpeg" alt="Playlist Image">
+            <div class="card-info">Check the hottest punjabi tracks cover.</div>
+          </div>
+
+          <div class="card">
+            <img src="fourthcard.jpeg" alt="Playlist Image">
+            <div class="card-info">The Hottest track in India - Ed..</div>
+          </div>
+
+          <div class="card">
+            <img src="sixthimage.jpeg" alt="Playlist Image">
+            <div class="card-info">Tune into Hottest track of Telugu</div>
+          </div>
+          <div class="card">
+            <img src="twentycard.jpeg" alt="Playlist Image">
+            <div class="card-info">Check the new punjabi tracks cover-Guru</div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- Editor's Pick -->
+      <div class="cards">
+        <div class="cards-header">
+          <h2>Editor's Pick</h2>
+          <a href="/" class="show-all">Show all</a>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img src="sixcard.jpeg" alt="Playlist Image">
+            <div class="card-info">Sooth your breaken heart with these...</div>
+          </div>
+
+
+          <div class="card">
+            <img src="sevencard.jpeg" alt="Playlist Image">
+            <div class="card-info">Late Night cools and these soothing tunes.</div>
+          </div>
+
+          <div class="card">
+            <img src="eightcard.jpeg" alt="Playlist Image">
+            <div class="card-info">Bollywood songs that ruled over in the Y2K...</div>
+          </div>
+
+          <div class="card">
+            <img src="nineimage.jpeg" alt="Playlist Image">
+            <div class="card-info">Bollywood's mesmerising ode to the.. </div>
+          </div>
+
+          <div class="card">
+            <img src="tencard.jpeg" alt="Playlist Image">
+            <div class="card-info">Sit back,and chill with Bollywood's easygoing...</div>
+          </div><!--card-->
+
+          <div class="card">
+            <img src="twentyonecard.jpeg" alt="Playlist Image">
+            <div class="card-info">Get Ready because you are the main.</div>
+          </div>
+        </div>
+      </div><!--Editors pick-->
+
+
+      <!-- Featured Charts -->
+      <div class="cards">
+        <div class="cards-header">
+          <h2>Featured Charts</h2>
+          <a href="/" class="show-all">Show all</a>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img src="elevencard.jpg" alt="Playlist Image">
+            <div class="card-info">Your weekly update of most played track...</div>
+          </div>
+
+
+          <div class="card">
+            <img src="twelvecard.jpg" alt="Playlist Image">
+            <div class="card-info">Your daily update of most played track..</div>
+          </div>
+
+          <div class="card">
+            <img src="thirteencard.jpg" alt="Playlist Image">
+            <div class="card-info">Your daily update of most played track..</div>
+          </div>
+
+          <div class="card">
+            <img src="fourteencard.jpg" alt="Playlist Image">
+            <div class="card-info">Your daily update of most played track..</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Punjabi Pop -->
+      <div class="cards">
+        <div class="cards-header">
+          <h2>Punjabi Pop</h2>
+          <a href="/" class="show-all">Show all</a>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img src="fifteencard.jpeg" alt="Playlist Image">
+            <div class="card-info">Pump your adrenaline with punjabi hits!</div>
+          </div>
+
+          <div class="card">
+            <img src="sixteeencard.jpeg" alt="Playlist Image">
+            <div class="card-info">A mega mix of the Punjabi hits...</div>
+          </div>
+
+          <div class="card">
+            <img src="seventeencard.jpeg" alt="Playlist Image">
+            <div class="card-info">Punjabi tunes for your monsoon.</div>
+          </div>
+
+          <div class="card">
+            <img src="eighteencard.jpeg" alt="Playlist Image">
+            <div class="card-info">Keep it Punjabi.Keep it real.Cover-Shubh </div>
+          </div>
+
+          <div class="card">
+            <img src="nineteencard.jpeg" alt="Playlist Image">
+            <div class="card-info">The lattest and the greatest in the Punjabi industy.Cover-AP.</div>
+          </div><!--card-->
+
+          <div class="card">
+            <img src="twentytwocard.jpeg" alt="Playlist Image">
+            <div class="card-info">Get Ready because you are the main.</div>
+          </div>
+        </div>
+      </div><!--Punjabi pop-->
+
+      <div class="cards"><!--India's best-->
+        <div class="cards-header">
+          <h2>India's Best</h2>
+          <a href="/" class="show-all">Show all</a>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img src="twenty three card.jpeg" alt="Playlist Image">
+            <div class="card-info">Hottest Hindi music that India is listening to.</div>
+          </div>
+
+          <div class="card">
+            <img src="twentyfour.jpeg" alt="Playlist Image">
+            <div class="card-info">Hottest track from your favourite I-pop icons.</div>
+          </div>
+
+          <div class="card">
+            <img src="twentyfive.jpeg" alt="Playlist Image">
+            <div class="card-info">Bollywood central,jab baje to sidha dil ke.</div>
+          </div>
+
+          <div class="card">
+            <img src="twentysixcard.jpeg" alt="Playlist Image">
+            <div class="card-info">India rap scene.cover-Hanumankind</div>
+          </div>
+
+          <div class="card">
+            <img src="twenty seven.jpeg" alt="Playlist Image">
+            <div class="card-info">Finest collection of tamil music from 10.</div>
+          </div><!--card-->
+
+          <div class="card">
+            <img src="twentyeightcard.jpeg" alt="Playlist Image">
+            <div class="card-info">Most exciting artists from Indian Indie..</div>
+          </div>
+        </div>
+      </div><!--India best-->
+
+
+      <div class="foter">
+        <div class="footer">
+          <div class="first">
+            <ul>
+              <p style="opacity: 1;">Company</p>
+              <li>About</li>
+              <li>Jobs</li>
+              <li>For the record</li>
+            </ul>
+          </div>
+          <div class="second">
+            <ul>
+              <p style="opacity: 1;">Communities</p>
+              <li>For artists</li>
+              <li>Developers</li>
+              <li>Advertising</li>
+              <li>Investors</li>
+              <li>Vendors</li>
+            </ul>
+          </div>
+          <div class="third">
+            <ul>
+              <p style="opacity: 1;"> Useful links</p>
+              <li>Support</li>
+              <li>Free mobile app</li>
+            </ul>
+          </div>
+
+          <div class="fourth">
+            <ul>
+              <p style="opacity: 1;">Spotify Plans</p>
+              <li>Premium Individual</li>
+              <li>Premium Duo</li>
+              <li>Premium Family</li>
+              <li>Premium student</li>
+              <li>Spotify Free</li>
+            </ul>
+          </div>
+          <div class="fifth">
+            <div class="icon-circle"><i class="fa-brands fa-instagram"></i></div>
+            <div class="icon-circle"> <i class="fa-brands fa-twitter"></i></div>
+            <div class="icon-circle"><i class="fa-brands fa-facebook"></i></div>
+          </div>
+
+          <!-- </div-->
+        </div>
+        <div class="copyright">
+          <p>
+            &copy;
+            2025 Spotify Clone</p>
+        </div>
+      </div>
+    </div><!--maincontent-->
+
+    <div class="musicplayer">
+      <div class="album">
+        <div class="image">
+          <img src="songplayer.jpeg">
+        </div>
+        <div class="songname">
+          <p>Sahiba</p>
+          <a href="/">Aditya <a class="surname">Rikhari</a></a>
+        </div>
+        <div class="plus"><i class="fa-solid fa-plus"></i></div>
+      </div>
+
+
+      <div class="player">
+        <div class="playercontrol">
+          <img src="player_icon1.png" class="playericon">
+          <img src="player_icon2.png" class="playericon">
+          <img src="player_icon3.png" class="playericon" style="opacity : 1; height : 2rem">
+          <img src="player_icon4.png" class="playericon">
+          <img src="player_icon5.png" class="playericon">
+        </div>
+        <div class="progressbar">
+          <span class="time ">1:44</span>
+          <input type="range" min="0" max="100" class="bar" step="1">
+          <span class="time">3:10</span>
+        </div>
+      </div>
+
+      <div class="controls">
+        <i class="fa-solid fa-microphone control"></i>
+        <i class="fa-solid fa-bars control"></i>
+        <i class="fa-solid fa-tv control"></i>
+        <i class="fa-solid fa-volume-up control"></i>
+        <div class="line control" style="opacity:1;"></div>
+        <i class="fa-solid fa-expand control"></i>
+      </div>
+    </div><!--footer-->
+
+
+
+    <div class="mobilefooter">
+      <div class="musicpplayer">
+        <div class="now-playing">
+          <img src="music-player.jpeg" alt="Song" class="song-img">
+          <div class="song-info">
+            <p class="song-name">Sahiba</p>
+            <p class="artist-name">Aditya <span>Rikhari</span></p>
+          </div>
+          <div class="plus-icon">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <i class="fa-solid fa-play play-button"></i>
+        </div>
+
+        <div class="bottomnav">
+          <div class="nav-item"><i class="fas fa-home"></i><span>Home</span></div>
+          <div class="nav-item"><i class="fas fa-search bottom-items"></i><span>Search</span></div>
+          <div class="nav-item"><i class="fas fa-book bottom-items"></i><span>Library</span></div>
+          <div class="nav-item"><i class="fa-brands fa-spotify bottom-items"></i><span>Premium</span></div>
+          <div class="nav-item"><i class="fa-solid fa-plus bottom-items"></i><span>Create</span></div>
+        </div>
+      </div>
+</body>
+
+</html>
