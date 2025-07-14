@@ -1097,3 +1097,8 @@ ul li {
    text-align: center;
    font-size: 11px;
 }
+@media (min-width : 400px) {
+   .bottomnav i{
+      font-size : 25px;
+   }
+}
